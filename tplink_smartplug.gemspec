@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Connect to TP-Link HS100 and HS110 WiFi Smart Plugs}
   spec.description   = %q{From an idea of https://github.com/softScheck/tplink-smartplug, this is a ruby
 port of that work to control TP-Link Smart Home protocol to control TP-Link HS100 and HS110 WiFi Smart Plugs}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/juryghidinelli/tplink_smartplug"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -21,4 +21,5 @@ port of that work to control TP-Link Smart Home protocol to control TP-Link HS10
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "minitest"
 end
