@@ -7,9 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "tplink_smartplug"
   spec.version       = TplinkSmartplug::VERSION
   spec.authors       = ["Jury Ghidinelli"]
-  spec.email         = ["jury@archimedianet.it"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.email         = ["juryghidinelli@gmail.com"]
+  spec.summary       = %q{Connect to TP-Link HS100 and HS110 WiFi Smart Plugs}
+  spec.description   = %q{From an idea of https://github.com/softScheck/tplink-smartplug, this is a ruby
+port of that work to control TP-Link Smart Home protocol to control TP-Link HS100 and HS110 WiFi Smart Plugs}
   spec.homepage      = ""
   spec.license       = "MIT"
 
